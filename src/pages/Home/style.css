@@ -1,0 +1,18 @@
+.jersey-podium {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+    justify-items: center;
+}
+
+.heading-img {
+    width: 20vw;
+    grid-column: 2;
+}
+
+.heading-img-cont {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+
+}

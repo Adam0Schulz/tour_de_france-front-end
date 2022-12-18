@@ -1,0 +1,23 @@
+.navbar {
+    background-color: var(--gray-dark);
+    width: 100vw;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vw;
+}
+
+.navbar ul {
+    list-style: none !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+
+}
+
+.navbar li, .navbar a {
+    text-decoration: none !important;
+    color: white;
+}
